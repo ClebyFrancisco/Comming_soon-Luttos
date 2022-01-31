@@ -1,58 +1,15 @@
-// ------------------------------------------------
-// Project Name: Imbue Coming Soon & Landing Page Template
-// Project Description: Imbue - classy and stylish coming soon & landing page template to kick-start your project
-// Tags: imbue, coming soon, under construction, template, coming soon page, landing page, one page, html5, css3
-// Version: 1.0.0
-// Build Date: January 2019
-// Last Update: January 2019
-// This product is available exclusively on Themeforest
-// Author: mix_design
-// Author URI: http://mixdesign.club
-// File name: imbue-custom.js
-// ------------------------------------------------
-
-// ------------------------------------------------
-// Table of Contents
-// ------------------------------------------------
-//
-//  1. Loader
-//  2. Main Section Loading Animation
-//  3. Swiper Slider Settings
-//  4. Custom Scrollbar Settings
-//  5. Skillbar Settings
-//  6. YTPlayer Settings
-//  7. Vegas Settings
-//  8. KBW-Countdown Settings
-//  9. Mailchimp Notify Form
-//  10. Write a Line Form
-//  11. ParticlesJS Backgrounds
-//
-// ------------------------------------------------
-// Table of Contents End
-// ------------------------------------------------
-
 $(window).on("load", function() {
 
   "use strict";
 
-  // --------------------------------------------- //
-  // Loader Start
-  // --------------------------------------------- //
   setTimeout(function(){
     $(".loader-logo").removeClass('fadeIn').addClass('fadeOut');
   },2000);
-
   setTimeout(function(){
     $('body').removeClass('overflow-hidden');
     $(".loader").addClass('fade loaded');
   },2000);
-  // --------------------------------------------- //
-  // Loader End
-  // --------------------------------------------- //
 
-  // --------------------------------------------- //
-  // Main Section Loading Animation Start
-  // --------------------------------------------- //
   setTimeout(function(){
     if ($('body').hasClass('split')) {
       $('body').addClass('split-loaded');
@@ -61,9 +18,7 @@ $(window).on("load", function() {
       $('body').addClass('fullscreen-loaded');
     };
   },1200);
-  // --------------------------------------------- //
-  // Main Section Loading Animation End
-  // --------------------------------------------- //
+
 
 });
 
@@ -71,9 +26,6 @@ $(function() {
 
   "use strict";
 
-  // --------------------------------------------- //
-  // Swiper Slider Settings Start
-  // --------------------------------------------- //
   var sliderFlip = $('.slider-flip'),
       sliderFade = $('.slider-fade');
 
@@ -100,37 +52,19 @@ $(function() {
         },
     });
   };
-  // --------------------------------------------- //
-  // Swiper Slider Settings End
-  // --------------------------------------------- //
 
-  // --------------------------------------------- //
-  // Custom Scrollbar Settings Start
-  // --------------------------------------------- //
   $(window).on("load",function(){
     $(".content-section__info, .writealine__content").mCustomScrollbar({
       autoHideScrollbar: true
     });
   });
-  // --------------------------------------------- //
-  // Custom Scrollbar Settings End
-  // --------------------------------------------- //
 
-  // --------------------------------------------- //
-  // Skillbar Settings Start
-  // --------------------------------------------- //
   $('.skillbar').skillBars({
     from: 0,
     speed: 4000,
     interval: 100,
   });
-  // --------------------------------------------- //
-  // Skillbar Settings End
-  // --------------------------------------------- //
 
-  // --------------------------------------------- //
-  // YTPlayer Start
-  // --------------------------------------------- //
   var bgndVideo = $("#bgndVideo"),
       bgndVideoControls = $("#bgndVideoControls");
 
@@ -157,13 +91,7 @@ $(function() {
       quality:'default'
     });
   };
-  // --------------------------------------------- //
-  // YTPlayer End
-  // --------------------------------------------- //
 
-  // --------------------------------------------- //
-  // Vegas Kenburns Start
-  // --------------------------------------------- //
   var bgndKenburns1 = $('#bgndKenburns');
   if(bgndKenburns1.length){
     bgndKenburns1.vegas({
@@ -195,22 +123,10 @@ $(function() {
       animation: [ 'kenburnsUp', 'kenburnsDown', 'kenburnsLeft', 'kenburnsRight' ]
     });
   };
-  // --------------------------------------------- //
-  // Vegas Kenburns End
-  // --------------------------------------------- //
 
-  // --------------------------------------------- //
-  // KBW-Countdown Start
-  // --------------------------------------------- //
   $('#countdown').countdown({until: $.countdown.UTCDate(+10, 2019, 5, 22), format: 'D'});
   $('#countdown-large').countdown({until: $.countdown.UTCDate(+10, 2019, 5, 22), format: 'DHMS'});
-  // --------------------------------------------- //
-  // KBW-Countdown End
-  // --------------------------------------------- //
-
-  // --------------------------------------------- //
-  // Mailchimp Notify Form Start
-  // --------------------------------------------- //
+ 
   $('.notify-form').ajaxChimp({
     callback: mailchimpCallback,
     url: 'https://besaba.us10.list-manage.com/subscribe/post?u=e8d650c0df90e716c22ae4778&amp;id=54a7906900'
@@ -221,7 +137,7 @@ $(function() {
       $('.notify').find('.form').addClass('is-hidden');
       $('.notify').find('.subscription-ok').addClass('is-visible');
       setTimeout(function() {
-        // Done Functions
+        
         $('.notify').find('.subscription-ok').removeClass('is-visible');
         $('.notify').find('.form').delay(300).removeClass('is-hidden');
         $('.notify-form').trigger("reset");
@@ -230,31 +146,25 @@ $(function() {
       $('.notify').find('.form').addClass('is-hidden');
       $('.notify').find('.subscription-error').addClass('is-visible');
       setTimeout(function() {
-        // Done Functions
+        
         $('.notify').find('.subscription-error').removeClass('is-visible');
         $('.notify').find('.form').delay(300).removeClass('is-hidden');
         $('.notify-form').trigger("reset");
       }, 5000);
     }
   };
-  // --------------------------------------------- //
-  // Mailchimp Notify Form End
-  // --------------------------------------------- //
 
-  // --------------------------------------------- //
-  // Write a Line Form Start
-  // --------------------------------------------- //
   $("#writealine-form").submit(function() { //Change
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "mail.php", //Change
+			url: "mail.php", 
 			data: th.serialize()
 		}).done(function() {
       $('.writealine').find('.form').addClass('is-hidden');
       $('.writealine').find('.reply-group').addClass('is-visible');
 			setTimeout(function() {
-				// Done Functions
+				
         $('.writealine').find('.reply-group').removeClass('is-visible');
         $('.writealine').find('.form').delay(300).removeClass('is-hidden');
 				th.trigger("reset");
@@ -262,16 +172,10 @@ $(function() {
 		});
 		return false;
 	});
-  // --------------------------------------------- //
-  // Write a Line Form End
-  // --------------------------------------------- //
 
-  // --------------------------------------------- //
-  // ParticlesJS Backgrounds Start
-  // --------------------------------------------- //
   $(window).on("load", function() {
 
-    // Night Sky BG - particlesJS
+
     var bgndNightSky = $('#nightsky-js');
     if (bgndNightSky.length) {
       particlesJS('nightsky-js', {
@@ -386,7 +290,7 @@ $(function() {
       });
     };
 
-    // Particles BG - particlesJS
+
     var bgndParticles = $('#particles-js');
     if (bgndParticles.length) {
       particlesJS('particles-js', {
@@ -501,7 +405,6 @@ $(function() {
         });
     };
 
-    // Snow BG - particlesJS
     var bgndSnow = $('#snow-js');
     if (bgndSnow.length) {
         particlesJS('snow-js', {
@@ -617,8 +520,18 @@ $(function() {
     };
 
   });
-  // --------------------------------------------- //
-  // ParticlesJS Backgrounds End
-  // --------------------------------------------- //
 
 });
+
+const titulo = document.querySelector("h1");
+
+function typeWriter(elemento) {
+  const textoArray = elemento.innerHTML.split("");
+  elemento.innerHTML = "";
+  textoArray.forEach((letra, i) => {
+    setTimeout(() => (elemento.innerHTML += letra), 160 * i);
+  });
+}
+setTimeout(() => {
+  typeWriter(titulo);
+}, 2400);
