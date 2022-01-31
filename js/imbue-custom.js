@@ -40,12 +40,12 @@ $(window).on("load", function() {
   // --------------------------------------------- //
   setTimeout(function(){
     $(".loader-logo").removeClass('fadeIn').addClass('fadeOut');
-  },600);
+  },3000);
 
   setTimeout(function(){
     $('body').removeClass('overflow-hidden');
     $(".loader").addClass('fade loaded');
-  },1200);
+  },3000);
   // --------------------------------------------- //
   // Loader End
   // --------------------------------------------- //

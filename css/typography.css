@@ -1,10 +1,10 @@
 /* Typography Start */
 /* ------------------------------------------------*/
 h1 {
-  font: normal 500 5rem/1 "Roboto", serif;
+  font: normal 600 4rem/1 "Roboto", serif;
+  text-transform: uppercase;
   color: var(--cinza-dark);
-  line-height: normal;
-  
+  margin-top: 2rem;
 }
 
 h1.light {
