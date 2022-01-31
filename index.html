@@ -23,13 +23,14 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
     />
-
-    <!-- Template Favicon & Icons Start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="shortcut icon"
-      href="./img/favicon.png"
-      type="image/x-icon"
+      href="https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
     />
+    <!-- Template Favicon & Icons Start -->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
     <!-- Template Favicon & Icons End-->
     <!-- Template Styles Start-->
     <link rel="stylesheet" type="text/css" href="css/plugins.css" />
@@ -39,6 +40,13 @@
       href="css/loaders/loader-light.css"
     />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/animation.css" />
+    <link rel="stylesheet" type="text/css" href="css/buttonTriggers.css" />
+    <link rel="stylesheet" type="text/css" href="css/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="css/scroll.css" />
+    <link rel="stylesheet" type="text/css" href="css/skillbars.css" />
+    <link rel="stylesheet" type="text/css" href="css/typography.css" />
     <!-- Template Styles End-->
     <link
       rel="stylesheet"
@@ -52,21 +60,17 @@
     <div class="loader">
       <div class="loader-content">
         <div class="loader-logo fadeIn">
-          <!-- Your Logo Here -->
           <img
             src="./img/Luttos.svg"
             alt="Luttos - Research, development & innovation"
           />
-          <p> Research, development & innovation</p>
+          <p>Research, development & innovation</p>
         </div>
       </div>
     </div>
-    <!-- Navigation Start-->
     <nav id="menu" class="menu light">
-      <!-- Menu Container Start -->
       <div class="menu-container fullheight">
         <div class="menu-content fullheight">
-          <!-- Menu Close Button Start -->
           <div class="menu-controls">
             <a
               href="#0"
@@ -74,9 +78,6 @@
               class="menu-close section-close dark"
             ></a>
           </div>
-          <!-- Menu Close Button End -->
-
-          <!-- Main Menu Start -->
           <ul class="navigation">
             <li>
               <a href="#0" id="home-trigger">Home</a>
@@ -88,68 +89,51 @@
               <a href="#0" id="contact-trigger">Contato</a>
             </li>
           </ul>
-          <!-- Main Menu Start -->
         </div>
       </div>
-      <!-- Menu Container End -->
-
-      <!-- Menu Background Objects Start -->
       <div class="menu-background-objects">
         <div class="objects-layer">
           <div class="menu-obj-1"></div>
           <div class="menu-obj-2"></div>
         </div>
       </div>
-      <!-- Menu Background Objects End -->
     </nav>
     <!-- Navigation End-->
-
-    <!-- Main Screen Section Start-->
     <section id="main" class="main-section">
-      <!-- Main Background Objects Start -->
       <div class="main-background-objects">
         <div class="objects-layer">
           <div class="main-obj-1"></div>
           <div class="main-obj-2"></div>
         </div>
       </div>
-      <!-- Main Background Objects End -->
-
-      <!-- Logo Start -->
       <div class="logo">
         <img
           src="./img/Luttos3 1.png"
           alt="Luttos - Research, development & innovation"
         />
       </div>
-      <!-- Logo End -->
-
-      <!-- Menu Trigger Start -->
       <div class="menu-button">
         <a href="#0" id="menu-trigger" class="menu-trigger mobile-dark"
           ><span></span
         ></a>
       </div>
-      <!-- Menu Trigger End -->
-
-      <!-- Main Section Content Start -->
       <div class="main-section__content">
         <div class="container-fluid p-0 fullheight">
           <div class="row no-gutters fullheight">
-            <!-- Main Section Intro Start -->
             <div class="col-12 col-lg-6 main-section__intro">
               <div class="intro-content">
-                <!-- Headline Start -->
                 <div id="headline" class="headline">
-                  <span class="headline__subtitle">Em Breve!</span>
-                  <h1>UM NOVO COMEÇO ESTÁ CHEGANDO</h1>
+                  <span class="headline__subtitle"> Briefly!</span>
+                  <h1 id="tt">A New Beginning Is Coming</h1>
                   <p class="headline__text">
-                    Estamos preparando algo incrível & emocionante para você. Um novo mundo, O mundo movido à tecnologia, trazendo soluções inovadoras. Aguardem-nos...
+                    We are preparing something incredible and exciting for you.
+                    A new world, The world powered by technology, bringing
+                    innovative solutions. Wait for us...
                   </p>
                   <div class="headline__btnholder">
                     <a href="#" id="notify-trigger" class="btn btn-light">
                       <span class="btn-background">
-                        <span class="btn-caption">Me avise</span>
+                        <span class="btn-caption">I want to be notified!</span>
                       </span>
                     </a>
                   </div>
@@ -245,17 +229,13 @@
 
                 <!-- Background Effect Start -->
                 <div id="particles-js">
-               <!--    <img src="./img/inovation.png" alt=""> -->
+                  <!--    <img src="./img/inovation.png" alt=""> -->
                 </div>
                 <!-- Background Effect End -->
 
                 <!-- Main Section Color Gradient Layer Start -->
-                <div class="color-layer gradient-layer">
-                
-                </div>
+                <div class="color-layer gradient-layer"></div>
                 <!-- Main Section Color Gradient Layer End -->
-
-                
               </div>
             </div>
             <!-- Main Section Media End -->
@@ -307,7 +287,12 @@
                 <span class="section-title__subtitle">Sobre</span>
                 <h2>A inovação contínua é a nossa paixão.</h2>
                 <p class="section-title__text">
-                  Somos um time apaixonado por pesquisa, desenvolvimento e inovação, com o propósito de trazer a vida, tecnologias e soluções inovadoras, e aprimorar tecnologias e soluções existentes com inovação continua. Unimos criatividade, design thinking e tecnologia para proporcionar e promover a inovacao necessaria para levar a organizacao para o proximo nivel.
+                  Somos um time apaixonado por pesquisa, desenvolvimento e
+                  inovação, com o propósito de trazer a vida, tecnologias e
+                  soluções inovadoras, e aprimorar tecnologias e soluções
+                  existentes com inovação continua. Unimos criatividade, design
+                  thinking e tecnologia para proporcionar e promover a inovacao
+                  necessaria para levar a organizacao para o proximo nivel.
                 </p>
               </div>
               <!-- Section Title End -->
@@ -322,7 +307,6 @@
               <div class="image about-image">
                 <div class="color-layer color-layer-black-onethird"></div>
                 <!-- About image bottom caption -->
-
               </div>
               <!-- About Image End -->
             </div>
