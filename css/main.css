@@ -14,7 +14,9 @@
 .menu-background-objects .objects-layer .menu-obj-2 {
   background-image: url("../img/backgrounds/objects/menu-obj-2.svg");
 }
-
+.about-image, .contact-image{
+  background-image: url("../img/inovation.png");
+}
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
