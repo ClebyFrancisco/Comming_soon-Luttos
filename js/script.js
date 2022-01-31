@@ -4,11 +4,11 @@ $(window).on("load", function() {
 
   setTimeout(function(){
     $(".loader-logo").removeClass('fadeIn').addClass('fadeOut');
-  },2000);
+  },800);
   setTimeout(function(){
     $('body').removeClass('overflow-hidden');
     $(".loader").addClass('fade loaded');
-  },2000);
+  },800);
 
   setTimeout(function(){
     if ($('body').hasClass('split')) {
@@ -17,7 +17,7 @@ $(window).on("load", function() {
     if ($('body').hasClass('fullscreen')) {
       $('body').addClass('fullscreen-loaded');
     };
-  },1200);
+  },800);
 
 
 });
@@ -534,4 +534,4 @@ function typeWriter(elemento) {
 }
 setTimeout(() => {
   typeWriter(titulo);
-}, 2400);
+}, 1000);
