@@ -10,7 +10,7 @@ h1 {
 h1.light {
   color: var(--white);
 }
-h1::after {
+/* h1::after {
     content: '|';
     opacity: 1;
     margin-left: 5px;
@@ -25,7 +25,7 @@ h1::after {
     50% {
       opacity: 0;
     }
-  }
+  } */
 
 @media only screen and (min-width: 768px) {
   h1 {
@@ -34,28 +34,8 @@ h1::after {
   }
 }
 
-.headline__subtitle {
-  display: block;
-  font: italic 600 2.8rem/1.2 "Roboto", serif;
-  color: var(--cinza-dark);
-;
-  background: -webkit-linear-gradient(-45deg, var(--cinza-medium)
- 0%, var(--cinza-light)
-30%, var(--cinza-medium)
- 70%, var(--black)
- 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  padding-top: 2.4rem;
-  padding-left: .2rem;
-  max-width: 500px;
-}
 
-@media only screen and (min-width: 992px) {
-  .headline__subtitle {
-    padding-top: 0;
-  }
-}
+
 
 .headline__text {
   color: var(--cinza-dark);
@@ -98,12 +78,9 @@ h2.light {
 }
 
 .section-title__subtitle {
-  font: italic 600 2.8rem/1.2 "Roboto", serif;
-  color: var(--cinza-dark);
-  background: -webkit-linear-gradient(-45deg, var(--cinza-dark) 0%, var(--cinza-light) 30%, var(--cinza-medium) 70%, var(--cinza-dark) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  padding-left: .2rem;
+  font: 600 2.8rem/1.2 "Roboto", serif;
+  color: var(--cinza-light);
+ ;
 }
 
 .section-title__text {
@@ -120,7 +97,7 @@ h3 {
 
 h3 small {
   display: block;
-  font: italic 400 1.8rem/1.5 "Roboto", serif;
+  font: 400 1.8rem/1.5 "Roboto", serif;
   text-transform: none;
   letter-spacing: normal;
   color: var(--cinza-medium);
@@ -145,7 +122,7 @@ h4 {
 h4 small {
   display: block;
   margin-top: .6rem;
-font: italic 400 1.8rem/1.5 "Roboto", serif;
+font: 400 1.8rem/1.5 "Roboto", serif;
   text-transform: none;
   letter-spacing: normal;
 }
@@ -186,7 +163,7 @@ a {
 
 .image-caption p span {
   display: block;
-  font: italic 400 1.8rem/1.5 "Roboto", serif;
+  font: 400 1.8rem/1.5 "Roboto", serif;
   text-transform: none;
   letter-spacing: normal;
   color: var(--white);
@@ -213,7 +190,7 @@ a {
 
 .popup-title__subtitle {
   display: block;
-  font: italic 600 2.8rem/1.2 "Roboto", serif;
+  font: 600 2.8rem/1.2 "Roboto", serif;
   color: var(--cinza-medium);
   background: var(--cinza-medium);
   -webkit-background-clip: text;

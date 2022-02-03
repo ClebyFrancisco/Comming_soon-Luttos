@@ -496,9 +496,36 @@ form .inputs-description {
   height: 100%;
   min-height: 320px;
   background-image: url("../img/inovation.png");
+
   background-position: center;
   background-size: cover;
-  
+
+  display: flex;
+  align-items: center;
+}
+
+#particles-js h1 {
+  font-size: 5vw;
+  color: black;
+  margin-left: 40px;
+
+}
+@media only screen and (max-width: 768px){
+  #particles-js h1 {
+  font-size: 32px;
+  color: black;
+  margin-left: 40px;
+
+}
+}
+.spanTyperwrite {
+  border-right: 0.5em solid;
+  animation: caret 1s steps(1) infinite;
+}
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
 }
 
 /* ------------------------------------------------*/
@@ -545,6 +572,7 @@ form .inputs-description {
 }
 
 @media only screen and (min-width: 992px) {
+
   .main-section {
     height: 100%;
     min-height: 546px;
@@ -598,6 +626,10 @@ form .inputs-description {
   -o-transition: all 0.8s ease-in-out;
   -moz-transition: all 0.8s ease-in-out;
   transition: all 0.8s ease-in-out;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  
 }
 
 .logo img {

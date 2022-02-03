@@ -136,9 +136,7 @@
 
 .btn-light {
   color: var(--cinza-dark);
-  background: -webkit-linear-gradient(135deg, var(--cinza-dark) 0%, var(--cinza-light) 30%, var(--cinza-medium) 70%, var(--cinza-dark) 100%);
-  background: -moz- oldlinear-gradient(135deg, var(--cinza-dark) 0%, var(--cinza-light) 30%, var(--cinza-medium) 70%, var(--cinza-dark) 100%);
-  background: -o-linear-gradient(135deg, var(--cinza-dark) 0%, var(--cinza-light) 30%, var(--cinza-medium) 70%, var(--cinza-dark) 100%);
+  
   background: linear-gradient(-45deg, var(--cinza-dark) 0%, var(--cinza-light) 30%, var(--cinza-medium) 70%, var(--cinza-dark) 100%);
 }
 
@@ -147,23 +145,23 @@
 }
 
 .no-touch .btn-light:hover {
-  background: -webkit-linear-gradient(315deg, var(--cinza-dark) 0%, var(--cinza-light) 23%, var(--cinza-light) 70%, var(--cinza-medium) 85%, var(--cinza-dark) 100%);
-  background: -moz- oldlinear-gradient(315deg, var(--cinza-dark) 0%, var(--cinza-light) 23%, var(--cinza-light) 70%, var(--cinza-medium) 85%, var(--cinza-dark) 100%);
-  background: -o-linear-gradient(315deg, var(--cinza-dark) 0%, var(--cinza-light) 23%, var(--cinza-light) 70%, var(--cinza-medium) 85%, var(--cinza-dark) 100%);
-  background: linear-gradient(135deg, var(--cinza-dark) 0%, var(--cinza-light) 23%, var(--cinza-light) 70%, var(--cinza-medium) 85%, var(--cinza-dark) 100%);
+  background-color: var(--cinza-light);
+  border: none;
 }
 
 .no-touch .btn-light:hover .btn-background {
-  background-color: transparent;
+  background-color: var(--cinza-light);
+  border: none;
 }
 
 .no-touch .btn-light:hover .btn-caption {
   color: var(--cinza-dark);
+  border: none;
 }
 
 .btn-light-outline {
   color: var(--white);
-  background-color: transparent;
+  /*background-color: transparent;*/
   border: 1px solid var(--white);
 }
 
@@ -181,10 +179,7 @@
 
 .btn-dark {
   color: var(--white);
-  background: -webkit-linear-gradient(135deg, var(--cinza-dark) 0%, var(--cinza-light) 30%, var(--cinza-medium) 70%, var(--cinza-dark) 100%);
-  background: -moz- oldlinear-gradient(135deg, var(--cinza-dark) 0%, var(--cinza-light) 30%, var(--cinza-medium) 70%, var(--cinza-dark) 100%);
-  background: -o-linear-gradient(135deg, var(--cinza-dark) 0%, var(--cinza-light) 30%, var(--cinza-medium) 70%, var(--cinza-dark) 100%);
-  background: linear-gradient(-45deg, var(--cinza-dark) 0%, var(--cinza-light) 30%, var(--cinza-medium) 70%, var(--cinza-dark) 100%);
+   
 }
 
 .btn-dark .btn-background {
@@ -192,10 +187,7 @@
 }
 
 .no-touch .btn-dark:hover {
-  background: -webkit-linear-gradient(315deg, var(--cinza-dark) 0%, var(--cinza-light) 23%, var(--cinza-light) 70%, var(--cinza-medium) 85%, var(--cinza-dark) 100%);
-  background: -moz- oldlinear-gradient(315deg, var(--cinza-dark) 0%, var(--cinza-light) 23%, var(--cinza-light) 70%, var(--cinza-medium) 85%, var(--cinza-dark) 100%);
-  background: -o-linear-gradient(315deg, var(--cinza-dark) 0%, var(--cinza-light) 23%, var(--cinza-light) 70%, var(--cinza-medium) 85%, var(--cinza-dark) 100%);
-  background: linear-gradient(135deg, var(--cinza-dark) 0%, var(--cinza-light) 23%, var(--cinza-light) 70%, var(--cinza-medium) 85%, var(--cinza-dark) 100%);
+  background-color: var(--cinza-light);
 }
 
 .no-touch .btn-dark:hover .btn-background {
