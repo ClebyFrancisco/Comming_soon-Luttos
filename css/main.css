@@ -506,6 +506,8 @@ form .inputs-description {
 
 #particles-js h1 {
   font-family: "HelveticaNeueMedium", Helvetica, sans-serif;
+  position: absolute;
+  pointer-events: none;
   font-weight: bold;
   font-size: 5vw;
   color: black;
@@ -515,10 +517,9 @@ form .inputs-description {
 @media only screen and (max-width: 768px){
   #particles-js h1 {
     z-index: 1000;
-  font-size: 32px;
-  color: black;
-  margin-left: 40px;
-
+    font-size: 32px;
+    color: black;
+    margin-left: 40px;
 }
 }
 .spanTyperwrite {
