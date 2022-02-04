@@ -252,7 +252,7 @@ nav.animate-out {
 
 .navigation li a {
   display: inline-block;
-  font: normal 600 3.6rem/1.1 "Roboto", serif;
+  font: normal 600 3.6rem/1.1 "HelveticaNeueLight", Helvetica, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.025em;
   padding: 0 40px 0 0;

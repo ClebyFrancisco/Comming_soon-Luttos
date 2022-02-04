@@ -1,7 +1,34 @@
 /* Typography Start */
 /* ------------------------------------------------*/
+@font-face {
+        font-family: "HelveticaNeue";
+        src: url("../fonts/Helvetica\ Neue\ LTW0697BlkCnObl.otf")
+            format("opentype"),
+          url("fonts/Helvetica\ Neue\ LTW0697BlkCnObl.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "HelveticaNeueMedium";
+        src: url("fonts/Helvetica\ Neue\ Medium\ Extended.otf")
+            format("opentype"),
+          url("fonts/Helvetica\ Neue\ Medium\ Extended.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+    font-family: "HelveticaNeuelight";
+        src: url("fonts/Helvetica\ Neue\ UltraLight.otf")
+            format("opentype"),
+          url("fonts/Helvetica\ Neue\ UltraLight.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+      };
+
+
+
 h1 {
-  font: normal 600 4rem/1 "Courier New", serif;
+  font: normal 600 4rem/1 "HelveticaNeueMedium", Helvetica, sans-serif;
   
   color: var(--cinza-dark);
   margin-top: 2rem;
@@ -61,7 +88,7 @@ h1.light {
 }
 
 h2 {
-  font: normal 600 4rem/1 "Roboto", serif;
+  font: normal 600 4rem/1 "HelveticaNeueMedium", Helvetica, sans-serif;
   text-transform: uppercase;
   color: var(--cinza-dark);
   margin-top: 2rem;
@@ -78,7 +105,7 @@ h2.light {
 }
 
 .section-title__subtitle {
-  font: 600 2.8rem/1.2 "Roboto", serif;
+  font: 600 2.8rem/1.2 "HelveticaNeueMedium", Helvetica, sans-serif;
   color: var(--cinza-light);
  ;
 }
@@ -89,7 +116,7 @@ h2.light {
 }
 
 h3 {
-  font: normal 600 2.2rem/1.2 "Roboto", sans-serif;
+  font: normal 600 2.2rem/1.2 "HelveticaNeueMedium", Helvetica, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.025em;
   color: var(--cinza-dark);
@@ -97,7 +124,7 @@ h3 {
 
 h3 small {
   display: block;
-  font: 400 1.8rem/1.5 "Roboto", serif;
+  font: 400 1.8rem/1.5 "HelveticaNeueMedium", Helvetica, sans-serif;
   text-transform: none;
   letter-spacing: normal;
   color: var(--cinza-medium);
@@ -122,13 +149,13 @@ h4 {
 h4 small {
   display: block;
   margin-top: .6rem;
-font: 400 1.8rem/1.5 "Roboto", serif;
+font: 400 1.8rem/1.5 "HelveticaNeueMedium", Helvetica, sans-serif;
   text-transform: none;
   letter-spacing: normal;
 }
 
 h5 {
-  font: normal 600 1.6rem/1.1 "Roboto", serif;
+  font: normal 600 1.6rem/1.1 "HelveticaNeueMedium", Helvetica, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.025em;
   color: var(--cinza-dark);
@@ -139,7 +166,7 @@ h5.light {
 }
 
 p {
-  font: normal 400 1.6rem/1.7 "Roboto", sans-serif;
+  font: normal 400 1.6rem/1.7 "HelveticaNeueLight", Helvetica, sans-serif;
 }
 
 p span {
@@ -147,7 +174,7 @@ p span {
 }
 
 a {
-  font: normal 400 1.6rem/1.7 "Roboto", sans-serif;
+  font: normal 400 1.6rem/1.7 "HelveticaNeueLight", Helvetica, sans-serif;
 }
 
 .image-caption {
@@ -155,7 +182,7 @@ a {
 }
 
 .image-caption p {
-  font: normal 700 2rem/1.2 "Roboto", serif;
+  font: normal 700 2rem/1.2 "HelveticaNeueLight", Helvetica, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.025em;
   color: var(--white);
@@ -163,14 +190,14 @@ a {
 
 .image-caption p span {
   display: block;
-  font: 400 1.8rem/1.5 "Roboto", serif;
+  font: 400 1.8rem/1.5 "HelveticaNeueLight", Helvetica, sans-serif;
   text-transform: none;
   letter-spacing: normal;
   color: var(--white);
 }
 
 .contact-data__item p {
-  font: normal 400 1.4rem/1.7 "Roboto", sans-serif;
+  font: normal 400 1.4rem/1.7 "HelveticaNeueLight", Helvetica, sans-serif;
   margin-top: .4rem;
 }
 
@@ -181,7 +208,7 @@ a {
 .contact-data__item a {
   display: block;
   position: relative;
-  font: normal 400 1.4rem/1.7 "Roboto", sans-serif;
+  font: normal 400 1.4rem/1.7 "HelveticaNeueLight", Helvetica, sans-serif;
 }
 
 .contact-data__item a:hover {
@@ -190,7 +217,7 @@ a {
 
 .popup-title__subtitle {
   display: block;
-  font: 600 2.8rem/1.2 "Roboto", serif;
+  font: 600 2.8rem/1.2 "HelveticaNeueLight", Helvetica, sans-serif;
   color: var(--cinza-medium);
   background: var(--cinza-medium);
   -webkit-background-clip: text;
@@ -200,7 +227,7 @@ a {
 
 .popup-title__title {
   margin-top: 1.6rem;
-  font: normal 600 4rem/1 "Roboto", serif;
+  font: normal 600 4rem/1 "HelveticaNeueLight", Helvetica, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.025em;
   color: var(--cinza-dark);

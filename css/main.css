@@ -64,7 +64,7 @@ body {
   position: relative;
   min-width: 320px;
   overflow-x: hidden !important;
-  font: normal 400 1.6rem/1.7 "roboto", sans-serif;
+  font: normal 400 1.6rem/1.7 "HelveticaNeueLight", sans-serif;
 }
 
 body.light-skin {
@@ -230,7 +230,7 @@ img {
 }
 
 .reply-group__title {
-  font: normal 700 2rem/1.2 "Roboto", serif;
+  font: normal 700 2rem/1.2 "HelveticaNeueLight", serif;
   text-transform: uppercase;
   letter-spacing: 0.025em;
   color: var(--cinza-dark);
@@ -505,6 +505,8 @@ form .inputs-description {
 }
 
 #particles-js h1 {
+  font-family: "HelveticaNeueMedium", Helvetica, sans-serif;
+  font-weight: bold;
   font-size: 5vw;
   color: black;
   margin-left: 40px;
@@ -512,6 +514,7 @@ form .inputs-description {
 }
 @media only screen and (max-width: 768px){
   #particles-js h1 {
+    z-index: 1000;
   font-size: 32px;
   color: black;
   margin-left: 40px;
@@ -621,7 +624,7 @@ form .inputs-description {
 
 .logo {
   position: relative;
-  z-index: 9;
+  z-index: 10;
   -webkit-transition: all 0.8s ease-in-out;
   -o-transition: all 0.8s ease-in-out;
   -moz-transition: all 0.8s ease-in-out;
@@ -630,11 +633,12 @@ form .inputs-description {
   justify-content: center;
   margin-top: 0;
   
+  
 }
 
 .logo img {
-  width: 150px;
-  height: 150px;
+  width: 115px;
+  height: 115px;
 }
 
 @media only screen and (min-width: 992px) {
@@ -1045,7 +1049,7 @@ form .inputs-description {
 }
 .socials ul li a {
   height: auto;
-  font: italic 600 1.7rem/1.7 "Roboto", serif;
+  font: 600 1.7rem/1.7 "HelveticaNeueLight", serif;
   color: var(--cinza-dark);
 }
 
@@ -1087,7 +1091,7 @@ form .inputs-description {
   .socials ul li a {
     margin: auto;
     height: 7.2rem;
-    font: italic 600 1.7rem/7.2rem "Roboto", serif;
+    font: 600 1.7rem/7.2rem "HelveticaNeueLight", sans-serif;
     transform: translateX(50%) rotate(90deg); 
   }
 }
@@ -1155,7 +1159,7 @@ form .inputs-description {
 .swiper-button-next span {
   display: inline-block;
   height: 3rem;
-  font: italic 600 1.7rem/3rem "Roboto", serif;
+  font: italic 600 1.7rem/3rem "HelveticaNeueLight", serif;
   color: var(--cinza-dark);
 }
 
@@ -1190,7 +1194,7 @@ form .inputs-description {
 .swiper-button-next span::after {
   content: "\f3d1";
   display: inline-block;
-  font-family: "Roboto";
+  font-family: "HelveticaNeueLight";
   font-size: 1rem;
   line-height: 3rem;
   margin-left: .8rem;
@@ -1199,7 +1203,7 @@ form .inputs-description {
 .swiper-button-prev span::before {
   content: "\f3cf";
   display: inline-block;
-  font-family: "Roboto";
+  font-family: "HelveticaNeueLight";
   font-size: 1rem;
   line-height: 3rem;
   margin-right: .8rem;
@@ -1273,7 +1277,7 @@ form .inputs-description {
 }
 
 .slide-caption p {
-  font: normal 700 2rem/1.2 "Roboto", serif;
+  font: normal 700 2rem/1.2 "HelveticaNeueLight", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.025em;
   color: var(--white);

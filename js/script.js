@@ -4,11 +4,11 @@ $(window).on("load", function() {
 
   setTimeout(function(){
     $(".loader-logo").removeClass('fadeIn').addClass('fadeOut');
-  },10);
+  },800);
   setTimeout(function(){
     $('body').removeClass('overflow-hidden');
     $(".loader").addClass('fade loaded');
-  },10);
+  },800);
 
   setTimeout(function(){
     if ($('body').hasClass('split')) {
@@ -17,7 +17,7 @@ $(window).on("load", function() {
     if ($('body').hasClass('fullscreen')) {
       $('body').addClass('fullscreen-loaded');
     };
-  },10);
+  },800);
 
 
 });
@@ -523,101 +523,49 @@ $(function() {
 
 });
 
-/* const titulo = document.querySelector("h1");
-
-function typeWriter(elemento) {
-  const textoArray = elemento.innerHTML.split("");
-  elemento.innerHTML = "";
-  textoArray.forEach((letra, i) => {
-    setTimeout(() => (elemento.innerHTML += letra), 160 * i);
-  });
-}
-setTimeout(() => {
-  typeWriter(titulo);
-}, 1000);
- */
-
-
-/* document.addEventListener('DOMContentLoaded', function(event){
-
+document.addEventListener("DOMContentLoaded", function (event) {
+  
   var dataText = ["Research!", "Development!", "Innovation!"];
 
-  function typerWriter(text, i, fnCallback){
-    if(i < (text.length)){
-      document.getElementById("textTyperwrite").innerHTML =
-        text.substring(0, i + 1) +
-        '<span id="spanTyperwrite" aria-hidden="true"></span>';
+  
+  function typeWriter(text, i, fnCallback) {
+    
+    if (i < text.length) {
+      
+      document.querySelector("h1").innerHTML =
+        text.substring(0, i + 1) + '<span aria-hidden="true"></span>';
 
-      setTimeout(function() {
-        typerWriter(text, i+1, fnCallback)
+      
+      setTimeout(function () {
+        typeWriter(text, i + 1, fnCallback);
       }, 100);
     }
-
-    else if(typeof fnCallback =='function'){
-      setTimeout(fnCallback, 700);
-
-    };
-  }
-  function StartTextAnimation(i){
-    if(typeof dataText[i] =='undefined'){
-      setTimeout(function(){
-        StartTextAnimation(0);
-      }, 20000);
+    
+    else if (typeof fnCallback == "function") {
+      
+      setTimeout(fnCallback, 600);
     }
-
-    if(i < dataText[i].lenght){
-      typerWriter(dataText[i], 0, function(){
-
+  }
+ 
+  function StartTextAnimation(i) {
+    if (typeof dataText[i] == "undefined") {
+      setTimeout(function () {
+        StartTextAnimation(0);
+      }, 600);
+    }
+    
+    if (i < dataText[i].length) {
+      
+      typeWriter(dataText[i], 0, function () {
+        
         StartTextAnimation(i + 1);
       });
     }
   }
-
-  StartTextAnimation(0);
-}); */
-
-
-document.addEventListener('DOMContentLoaded',function(event){
-  // array with texts to type in typewriter
-   var dataText = [
-     "Research!",
-     "Development!",
-     "Innovation!"
-   ];
-
-  function typeWriter(text, i, fnCallback) {
-
-    if (i < (text.length)) {
-
-     document.querySelector("h1").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
-
-
-      setTimeout(function() {
-        typeWriter(text, i + 1, fnCallback)
-      }, 100);
-    }
-
-    else if (typeof fnCallback == 'function') {
-
-      setTimeout(fnCallback, 700);
-    }
-  }
-
-   function StartTextAnimation(i) {
-     if (typeof dataText[i] == 'undefined'){
-        setTimeout(function() {
-          StartTextAnimation(0);
-        }, 1000);
-     }
-s
-    if (i < dataText[i].length) {
-
-     typeWriter(dataText[i], 0, function(){
-       
-       StartTextAnimation(i + 1);
-     });
-    }
-  }
-
   StartTextAnimation(0);
 });
+
+ const btn = document.getElementById("logo");
+btn.addEventListener("click", () => {
+  window.location.reload();
+}); 

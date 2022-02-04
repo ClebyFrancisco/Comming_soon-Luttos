@@ -25,7 +25,7 @@
   position: absolute;
   top: 0;
   left: 2px;
-  font: normal 700 2rem/1.1 "Roboto", serif;
+  font: normal 700 2rem/1.1 "HelveticaNeueLight", serif;
   text-transform: uppercase;
   letter-spacing: 0.025em;
   color: var(--cinza-dark);
@@ -55,7 +55,7 @@
   position: absolute;
   top: 0;
   right: 2px;
-  font: normal 700 2rem/1.1 "Roboto", serif;
+  font: normal 700 2rem/1.1 "HelveticaNeueLight", serif;
   color: var(--cinza-dark);
   height: 4rem;
   line-height: 4.6rem;

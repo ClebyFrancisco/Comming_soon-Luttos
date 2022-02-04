@@ -133,7 +133,7 @@
 }
 
 .pswp__caption__center h4 {
-  font: normal 600 2rem/1.1 "Roboto", serif;
+  font: normal 600 2rem/1.1 "HelveticaNeueLight", serif;
   text-transform: uppercase;
   letter-spacing: 0.025em;
   color: var(--white);
@@ -142,7 +142,7 @@
 .pswp__caption__center h4 small {
   display: block;
   margin-top: .6rem;
-  font: italic 400 1.8rem/1.7 "Roboto", serif;
+  font: italic 400 1.8rem/1.7 "HelveticaNeueLight", serif;
   text-transform: none;
   letter-spacing: normal;
   color: var(--cinza-light);
@@ -150,12 +150,12 @@
 
 .pswp__caption__center p {
   margin-top: .8rem;
-  font: normal 300 1.4rem/1.7 "Roboto", sans-serif;
+  font: normal 300 1.4rem/1.7 "HelveticaNeueLight", sans-serif;
   color: var(--cinza-light);
 }
 
 .pswp__counter {
-  font-family: "Roboto", sans-serif;
+  font-family: "HelveticaNeueLight", sans-serif;
 }
 
 .pswp__button--close {
