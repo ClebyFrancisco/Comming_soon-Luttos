@@ -1,5 +1,3 @@
-/* Custom Skillbars Styles Start */
-/* ------------------------------------------------*/
 .show-skillbar {
   display: block;
   padding: 0;
@@ -44,10 +42,35 @@
   left: 0;
   width: 0px;
   height: 3px;
-  background: -webkit-linear-gradient(135deg, var(--cinza-dark) 0%, var(--cinza-light) 30%, var(--cinza-medium) 70%, var(--cinza-dark) 100%);
-  background: -moz- oldlinear-gradient(135deg, var(--cinza-dark) 0%, var(--cinza-light) 30%, var(--cinza-medium) 70%, var(--cinza-dark) 100%);
-  background: -o-linear-gradient(135deg, var(--cinza-dark) 0%, var(--cinza-light) 30%, var(--cinza-medium) 70%, var(--cinza-dark) 100%);
-  background: linear-gradient(-45deg, var(--cinza-dark) 0%, var(--cinza-light) 30%, var(--cinza-medium) 70%, var(--cinza-dark) 100%);
+  background: -webkit-linear-gradient(
+    135deg,
+    var(--cinza-dark) 0%,
+    var(--cinza-light) 30%,
+    var(--cinza-medium) 70%,
+    var(--cinza-dark) 100%
+  );
+  background: -moz-
+    oldlinear-gradient(
+      135deg,
+      var(--cinza-dark) 0%,
+      var(--cinza-light) 30%,
+      var(--cinza-medium) 70%,
+      var(--cinza-dark) 100%
+    );
+  background: -o-linear-gradient(
+    135deg,
+    var(--cinza-dark) 0%,
+    var(--cinza-light) 30%,
+    var(--cinza-medium) 70%,
+    var(--cinza-dark) 100%
+  );
+  background: linear-gradient(
+    -45deg,
+    var(--cinza-dark) 0%,
+    var(--cinza-light) 30%,
+    var(--cinza-medium) 70%,
+    var(--cinza-dark) 100%
+  );
 }
 
 .skill-bar-percent {
@@ -64,7 +87,3 @@
 .skill-bar-percent.light {
   color: var(--white);
 }
-
-
-/* Custom Skillbars Styles End */
-/* ------------------------------------------------*/

@@ -14,16 +14,20 @@
 .menu-background-objects .objects-layer .menu-obj-2 {
   background-image: url("../img/backgrounds/objects/menu-obj-2.svg");
 }
-.about-image, .contact-image{
+.about-image,
+.contact-image {
   background-image: url("../img/inovation.png");
 }
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-button:active, button:focus {
+button:active,
+button:focus {
   outline: none !important;
 }
 
@@ -148,8 +152,8 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
-     -moz-background-size: cover;
-          background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
 .color-layer {
@@ -164,14 +168,42 @@ img {
   background-color: rgba(25, 25, 25, 0.4);
 }
 .color-layer-black-onethird {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(70%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.4)));
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.4) 100%);
-  background: -moz- oldlinear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.4) 100%);
-  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.4) 100%);
-  background: linear-gradient(to bottom, #00000000 0%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.4) 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(0, 0, 0, 0)),
+    color-stop(70%, rgba(0, 0, 0, 0)),
+    to(rgba(0, 0, 0, 0.4))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 70%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+  background: -moz-
+    oldlinear-gradient(
+      top,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 70%,
+      rgba(0, 0, 0, 0.4) 100%
+    );
+  background: -o-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 70%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    #00000000 0%,
+    rgba(0, 0, 0, 0) 70%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
 }
 
- .gradient-layer {
+.gradient-layer {
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 1.6s ease-in-out;
@@ -184,11 +216,9 @@ img {
 .gradient-layer.is-visible {
   opacity: 1;
   visibility: visible;
-} 
+}
 
 /* Base CSS Styles End */
-
-
 
 /* ------------------------------------------------*/
 /* Forms and Forms Reply Groups Start */
@@ -200,9 +230,9 @@ img {
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
-     -moz-transform: translateX(-50%) translateY(-50%);
-      -ms-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
   text-align: center;
   opacity: 0;
   -webkit-transition: opacity 0.5s ease-in-out;
@@ -224,7 +254,13 @@ img {
 }
 
 .reply-group__icon::before {
-  background: -webkit-linear-gradient(-45deg, var(--cinza-dark) 0%, var(--cinza-light) 30%, var(--cinza-medium) 70%, var(--cinza-dark) 100%);
+  background: -webkit-linear-gradient(
+    -45deg,
+    var(--cinza-dark) 0%,
+    var(--cinza-light) 30%,
+    var(--cinza-medium) 70%,
+    var(--cinza-dark) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -234,7 +270,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.025em;
   color: var(--cinza-dark);
-  margin-top: .6rem;
+  margin-top: 0.6rem;
 }
 
 .reply-group__title.light {
@@ -258,9 +294,9 @@ img {
   bottom: auto;
   left: 0;
   -webkit-transform: translateX(0) translateY(0);
-     -moz-transform: translateX(0) translateY(0);
-      -ms-transform: translateX(0) translateY(0);
-          transform: translateX(0) translateY(0);
+  -moz-transform: translateX(0) translateY(0);
+  -ms-transform: translateX(0) translateY(0);
+  transform: translateX(0) translateY(0);
 }
 
 .form-container {
@@ -284,7 +320,8 @@ form {
   width: 100%;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   position: relative;
   display: block;
   width: 100%;
@@ -293,12 +330,12 @@ form input, form textarea {
   margin: 0;
   padding: 0;
   background-color: transparent;
-  padding: 1.2rem .3rem;
+  padding: 1.2rem 0.3rem;
   font: normal 400 1.4rem/1.7 "Raleway", sans-serif;
-  -webkit-transition: border-bottom .6s;
-  -o-transition: border-bottom .6s;
-  -moz-transition: border-bottom .6s;
-  transition: border-bottom .6s;
+  -webkit-transition: border-bottom 0.6s;
+  -o-transition: border-bottom 0.6s;
+  -moz-transition: border-bottom 0.6s;
+  transition: border-bottom 0.6s;
 }
 
 form input {
@@ -309,7 +346,7 @@ form input {
 form textarea {
   height: 12rem;
   resize: none;
-  margin: 0 0 .8rem 0;
+  margin: 0 0 0.8rem 0;
 }
 
 form .inputs-description {
@@ -321,7 +358,7 @@ form .inputs-description {
 }
 
 .notify-form input {
-  margin: 0 0 .8rem 0;
+  margin: 0 0 0.8rem 0;
 }
 
 .form-dark {
@@ -347,12 +384,14 @@ form .inputs-description {
   color: #999999;
 }
 
-.form-dark input, .form-dark textarea {
+.form-dark input,
+.form-dark textarea {
   border-bottom: 1px solid #999999;
   color: #999999;
 }
 
-.form-dark input:focus, .form-dark textarea:focus {
+.form-dark input:focus,
+.form-dark textarea:focus {
   border-bottom: 1px solid var(--cinza-dark);
 }
 
@@ -365,7 +404,8 @@ form .inputs-description {
   -ms-input-placeholder-color: rgba(255, 255, 255, 0.6);
 }
 
-.form-light input, .form-light textarea {
+.form-light input,
+.form-light textarea {
   font-weight: 300;
 }
 
@@ -387,12 +427,14 @@ form .inputs-description {
   color: var(--white);
 }
 
-.form-light input, .form-light textarea {
+.form-light input,
+.form-light textarea {
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
   color: var(--white);
 }
 
-.form-light input:focus, .form-light textarea:focus {
+.form-light input:focus,
+.form-light textarea:focus {
   border-bottom: 1px solid var(--cinza-light);
 }
 
@@ -435,9 +477,9 @@ form .inputs-description {
   cursor: pointer;
   text-decoration: none;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   width: 50px;
   height: 50px;
   margin-right: -4px;
@@ -450,9 +492,9 @@ form .inputs-description {
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
-     -moz-transform: translateX(-50%) translateY(-50%);
-      -ms-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
   font-size: 2rem;
   color: rgba(255, 255, 255, 0.6);
   -webkit-transition: color 0.5s ease-in-out;
@@ -509,19 +551,19 @@ form .inputs-description {
   position: absolute;
   pointer-events: none;
   font-weight: bold;
-  font-size: 5vw;
+  font-size: 3.1vw;
   color: black;
   left: 50%;
   transform: translateX(-50%);
-
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   #particles-js h1 {
     z-index: 1000;
-    font-size: 32px;
+    font-size: 21px;
     color: black;
-    margin-left: 40px;
-}
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 .spanTyperwrite {
   border-right: 0.5em solid;
@@ -577,7 +619,6 @@ form .inputs-description {
 }
 
 @media only screen and (min-width: 992px) {
-
   .main-section {
     height: 100%;
     min-height: 546px;
@@ -635,8 +676,6 @@ form .inputs-description {
   justify-content: center;
   margin-top: 0;
   cursor: pointer;
-  
-  
 }
 
 .logo img {
@@ -723,8 +762,7 @@ form .inputs-description {
     width: 100%;
     height: 100%;
     border-bottom: none;
-    border-right: 1px solid var(--cinza-dark)
-;
+    border-right: 1px solid var(--cinza-dark);
   }
   .main-section__aside.bottom-mobile {
     position: fixed;
@@ -795,9 +833,9 @@ form .inputs-description {
   top: 50%;
   bottom: auto;
   -webkit-transform: translateY(-50%);
-     -moz-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 @media only screen and (min-width: 992px) {
@@ -813,9 +851,9 @@ form .inputs-description {
     top: 50%;
     bottom: auto;
     -webkit-transform: translateY(-50%);
-       -moz-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     width: 100%;
     padding: 0 6rem;
   }
@@ -854,8 +892,8 @@ form .inputs-description {
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
-     -moz-background-size: cover;
-          background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
 @media only screen and (min-width: 768px) {
@@ -903,8 +941,8 @@ form .inputs-description {
 .main-background-objects .main-obj-3 {
   background-repeat: no-repeat;
   -webkit-background-size: cover;
-     -moz-background-size: cover;
-          background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
 .main-background-objects .objects-layer {
@@ -919,8 +957,8 @@ form .inputs-description {
 .main-background-objects .objects-layer .main-obj-2 {
   background-repeat: no-repeat;
   -webkit-background-size: cover;
-     -moz-background-size: cover;
-          background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
 .main-background-objects .objects-layer .main-obj-1 {
@@ -1056,11 +1094,8 @@ form .inputs-description {
   color: var(--cinza-dark);
 }
 
-
 .socials.dark ul li a {
   color: var(--cinza-dark);
- 
-  
 }
 
 .socials.light ul li a {
@@ -1089,13 +1124,13 @@ form .inputs-description {
   }
   .socials ul li {
     display: inline-block;
-   }
+  }
 
   .socials ul li a {
     margin: auto;
     height: 7.2rem;
     font: 600 1.7rem/7.2rem "HelveticaNeueLight", sans-serif;
-    transform: translateX(50%) rotate(90deg); 
+    transform: translateX(50%) rotate(90deg);
   }
 }
 
@@ -1152,7 +1187,8 @@ form .inputs-description {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.swiper-button-prev:active, .swiper-button-prev:focus,
+.swiper-button-prev:active,
+.swiper-button-prev:focus,
 .swiper-button-next:active,
 .swiper-button-next:focus {
   outline: none;
@@ -1190,7 +1226,7 @@ form .inputs-description {
   .swiper-button-prev,
   .swiper-button-next {
     width: 7.6rem;
-    padding: 0 .2rem;
+    padding: 0 0.2rem;
   }
 }
 
@@ -1200,7 +1236,7 @@ form .inputs-description {
   font-family: "HelveticaNeueLight";
   font-size: 1rem;
   line-height: 3rem;
-  margin-left: .8rem;
+  margin-left: 0.8rem;
 }
 
 .swiper-button-prev span::before {
@@ -1209,7 +1245,7 @@ form .inputs-description {
   font-family: "HelveticaNeueLight";
   font-size: 1rem;
   line-height: 3rem;
-  margin-right: .8rem;
+  margin-right: 0.8rem;
 }
 
 .swiper-button-next,
@@ -1222,7 +1258,7 @@ form .inputs-description {
   .swiper-container-rtl .swiper-button-prev {
     right: 0;
     margin-top: -1.5rem;
-    border-bottom: 1px solid #B3B3B3;
+    border-bottom: 1px solid #b3b3b3;
     text-align: right;
   }
 }
@@ -1249,7 +1285,7 @@ form .inputs-description {
 
 .swiper-button-prev.swiper-button-disabled span,
 .swiper-button-next.swiper-button-disabled span {
-  opacity: .35;
+  opacity: 0.35;
 }
 
 .swiper-slide {
@@ -1257,8 +1293,8 @@ form .inputs-description {
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
-     -moz-background-size: cover;
-          background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
 .slide-caption {
@@ -1273,7 +1309,7 @@ form .inputs-description {
 
 .slide-caption span {
   display: block;
-  font-family: 'Dongle', sans-serif;
+  font-family: "Dongle", sans-serif;
   text-transform: none;
   letter-spacing: normal;
   color: var(--white);
@@ -1332,85 +1368,100 @@ form .inputs-description {
 .notify.animate-in .popup-content .popup-title__subtitle {
   opacity: 1;
   -webkit-transform: translateY(0);
-     -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
   -webkit-transition: opacity 0.5s 0.4s, -webkit-transform 0.5s 0.3s;
   transition: opacity 0.5s 0.4s, -webkit-transform 0.5s 0.3s;
   -o-transition: transform 0.5s 0.3s, opacity 0.5s 0.4s;
-  -moz-transition: transform 0.5s 0.3s, opacity 0.5s 0.4s, -moz-transform 0.5s 0.3s;
+  -moz-transition: transform 0.5s 0.3s, opacity 0.5s 0.4s,
+    -moz-transform 0.5s 0.3s;
   transition: transform 0.5s 0.3s, opacity 0.5s 0.4s;
-  transition: transform 0.5s 0.3s, opacity 0.5s 0.4s, -webkit-transform 0.5s 0.3s, -moz-transform 0.5s 0.3s;
+  transition: transform 0.5s 0.3s, opacity 0.5s 0.4s,
+    -webkit-transform 0.5s 0.3s, -moz-transform 0.5s 0.3s;
 }
 
 .notify.animate-in .popup-content .popup-title__title {
   opacity: 1;
   -webkit-transform: translateY(0);
-     -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
   -webkit-transition: opacity 0.5s 0.5s, -webkit-transform 0.5s 0.4s;
   transition: opacity 0.5s 0.5s, -webkit-transform 0.5s 0.4s;
   -o-transition: transform 0.5s 0.4s, opacity 0.5s 0.5s;
-  -moz-transition: transform 0.5s 0.4s, opacity 0.5s 0.5s, -moz-transform 0.5s 0.4s;
+  -moz-transition: transform 0.5s 0.4s, opacity 0.5s 0.5s,
+    -moz-transform 0.5s 0.4s;
   transition: transform 0.5s 0.4s, opacity 0.5s 0.5s;
-  transition: transform 0.5s 0.4s, opacity 0.5s 0.5s, -webkit-transform 0.5s 0.4s, -moz-transform 0.5s 0.4s;
+  transition: transform 0.5s 0.4s, opacity 0.5s 0.5s,
+    -webkit-transform 0.5s 0.4s, -moz-transform 0.5s 0.4s;
 }
 
 .notify.animate-in .popup-content .popup-title__text {
   opacity: 1;
   -webkit-transform: translateY(0);
-     -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
   -webkit-transition: opacity 0.5s 0.6s, -webkit-transform 0.5s 0.5s;
   transition: opacity 0.5s 0.6s, -webkit-transform 0.5s 0.5s;
   -o-transition: transform 0.5s 0.5s, opacity 0.5s 0.6s;
-  -moz-transition: transform 0.5s 0.5s, opacity 0.5s 0.6s, -moz-transform 0.5s 0.5s;
+  -moz-transition: transform 0.5s 0.5s, opacity 0.5s 0.6s,
+    -moz-transform 0.5s 0.5s;
   transition: transform 0.5s 0.5s, opacity 0.5s 0.6s;
-  transition: transform 0.5s 0.5s, opacity 0.5s 0.6s, -webkit-transform 0.5s 0.5s, -moz-transform 0.5s 0.5s;
+  transition: transform 0.5s 0.5s, opacity 0.5s 0.6s,
+    -webkit-transform 0.5s 0.5s, -moz-transform 0.5s 0.5s;
 }
 
 .notify.animate-in .popup-content .form input {
   opacity: 1;
   -webkit-transform: translateY(0);
-     -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: opacity 0.5s 0.7s, border 0.6s, -webkit-transform 0.5s 0.6s;
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: opacity 0.5s 0.7s, border 0.6s,
+    -webkit-transform 0.5s 0.6s;
   transition: opacity 0.5s 0.7s, border 0.6s, -webkit-transform 0.5s 0.6s;
   -o-transition: transform 0.5s 0.6s, opacity 0.5s 0.7s, border 0.6s;
-  -moz-transition: transform 0.5s 0.6s, opacity 0.5s 0.7s, border 0.6s, -moz-transform 0.5s 0.6s;
+  -moz-transition: transform 0.5s 0.6s, opacity 0.5s 0.7s, border 0.6s,
+    -moz-transform 0.5s 0.6s;
   transition: transform 0.5s 0.6s, opacity 0.5s 0.7s, border 0.6s;
-  transition: transform 0.5s 0.6s, opacity 0.5s 0.7s, border 0.6s, -webkit-transform 0.5s 0.6s, -moz-transform 0.5s 0.6s;
+  transition: transform 0.5s 0.6s, opacity 0.5s 0.7s, border 0.6s,
+    -webkit-transform 0.5s 0.6s, -moz-transform 0.5s 0.6s;
 }
 
 .notify.animate-in .popup-content .form .inputs-description {
   opacity: 1;
   -webkit-transform: translateY(0);
-     -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: opacity 0.5s 0.7s, padding 0.5s, -webkit-transform 0.5s 0.6s;
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: opacity 0.5s 0.7s, padding 0.5s,
+    -webkit-transform 0.5s 0.6s;
   transition: opacity 0.5s 0.7s, padding 0.5s, -webkit-transform 0.5s 0.6s;
   -o-transition: transform 0.5s 0.6s, opacity 0.5s 0.7s, padding 0.5s;
-  -moz-transition: transform 0.5s 0.6s, opacity 0.5s 0.7s, padding 0.5s, -moz-transform 0.5s 0.6s;
+  -moz-transition: transform 0.5s 0.6s, opacity 0.5s 0.7s, padding 0.5s,
+    -moz-transform 0.5s 0.6s;
   transition: transform 0.5s 0.6s, opacity 0.5s 0.7s, padding 0.5s;
-  transition: transform 0.5s 0.6s, opacity 0.5s 0.7s, padding 0.5s, -webkit-transform 0.5s 0.6s, -moz-transform 0.5s 0.6s;
+  transition: transform 0.5s 0.6s, opacity 0.5s 0.7s, padding 0.5s,
+    -webkit-transform 0.5s 0.6s, -moz-transform 0.5s 0.6s;
 }
 
 .notify.animate-in .popup-content .form button {
   opacity: 1;
   -webkit-transform: translateY(0);
-     -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: opacity 0.5s 0.8s, padding 0.5s, -webkit-transform 0.5s 0.7s;
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: opacity 0.5s 0.8s, padding 0.5s,
+    -webkit-transform 0.5s 0.7s;
   transition: opacity 0.5s 0.8s, padding 0.5s, -webkit-transform 0.5s 0.7s;
   -o-transition: transform 0.5s 0.7s, opacity 0.5s 0.8s, padding 0.5s;
-  -moz-transition: transform 0.5s 0.7s, opacity 0.5s 0.8s, padding 0.5s, -moz-transform 0.5s 0.7s;
+  -moz-transition: transform 0.5s 0.7s, opacity 0.5s 0.8s, padding 0.5s,
+    -moz-transform 0.5s 0.7s;
   transition: transform 0.5s 0.7s, opacity 0.5s 0.8s, padding 0.5s;
-  transition: transform 0.5s 0.7s, opacity 0.5s 0.8s, padding 0.5s, -webkit-transform 0.5s 0.7s, -moz-transform 0.5s 0.7s;
+  transition: transform 0.5s 0.7s, opacity 0.5s 0.8s, padding 0.5s,
+    -webkit-transform 0.5s 0.7s, -moz-transform 0.5s 0.7s;
 }
 
 .notify.animate-out {
@@ -1428,15 +1479,16 @@ form .inputs-description {
 .notify .popup-content .popup-title__text {
   opacity: 0;
   -webkit-transform: translateY(50px);
-     -moz-transform: translateY(50px);
-      -ms-transform: translateY(50px);
-          transform: translateY(50px);
+  -moz-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  transform: translateY(50px);
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: opacity 0.3s, -webkit-transform 0.3s;
   -o-transition: opacity 0.3s, transform 0.3s;
   -moz-transition: opacity 0.3s, transform 0.3s, -moz-transform 0.3s;
   transition: opacity 0.3s, transform 0.3s;
-  transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s, -moz-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s,
+    -moz-transform 0.3s;
 }
 
 .notify .popup-content .form input,
@@ -1445,15 +1497,16 @@ form .inputs-description {
 .notify .popup-content .form .inputs-description {
   opacity: 0;
   -webkit-transform: translateY(50px);
-     -moz-transform: translateY(50px);
-      -ms-transform: translateY(50px);
-          transform: translateY(50px);
+  -moz-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  transform: translateY(50px);
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: opacity 0.3s, -webkit-transform 0.3s;
   -o-transition: opacity 0.3s, transform 0.3s;
   -moz-transition: opacity 0.3s, transform 0.3s, -moz-transform 0.3s;
   transition: opacity 0.3s, transform 0.3s;
-  transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s, -moz-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s,
+    -moz-transform 0.3s;
 }
 
 .notify .content-block:last-of-type {
@@ -1476,9 +1529,9 @@ form .inputs-description {
     top: 50%;
     bottom: auto;
     -webkit-transform: translateY(-50%);
-       -moz-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
   }
   .notify .content-block:last-of-type {
     margin-bottom: 0;
@@ -1522,100 +1575,117 @@ form .inputs-description {
 .writealine.animate-in .popup-content .popup-title__subtitle {
   opacity: 1;
   -webkit-transform: translateY(0);
-     -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
   -webkit-transition: opacity 0.5s 0.4s, -webkit-transform 0.5s 0.3s;
   transition: opacity 0.5s 0.4s, -webkit-transform 0.5s 0.3s;
   -o-transition: transform 0.5s 0.3s, opacity 0.5s 0.4s;
-  -moz-transition: transform 0.5s 0.3s, opacity 0.5s 0.4s, -moz-transform 0.5s 0.3s;
+  -moz-transition: transform 0.5s 0.3s, opacity 0.5s 0.4s,
+    -moz-transform 0.5s 0.3s;
   transition: transform 0.5s 0.3s, opacity 0.5s 0.4s;
-  transition: transform 0.5s 0.3s, opacity 0.5s 0.4s, -webkit-transform 0.5s 0.3s, -moz-transform 0.5s 0.3s;
+  transition: transform 0.5s 0.3s, opacity 0.5s 0.4s,
+    -webkit-transform 0.5s 0.3s, -moz-transform 0.5s 0.3s;
 }
 
 .writealine.animate-in .popup-content .popup-title__title {
   opacity: 1;
   -webkit-transform: translateY(0);
-     -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
   -webkit-transition: opacity 0.5s 0.5s, -webkit-transform 0.5s 0.4s;
   transition: opacity 0.5s 0.5s, -webkit-transform 0.5s 0.4s;
   -o-transition: transform 0.5s 0.4s, opacity 0.5s 0.5s;
-  -moz-transition: transform 0.5s 0.4s, opacity 0.5s 0.5s, -moz-transform 0.5s 0.4s;
+  -moz-transition: transform 0.5s 0.4s, opacity 0.5s 0.5s,
+    -moz-transform 0.5s 0.4s;
   transition: transform 0.5s 0.4s, opacity 0.5s 0.5s;
-  transition: transform 0.5s 0.4s, opacity 0.5s 0.5s, -webkit-transform 0.5s 0.4s, -moz-transform 0.5s 0.4s;
+  transition: transform 0.5s 0.4s, opacity 0.5s 0.5s,
+    -webkit-transform 0.5s 0.4s, -moz-transform 0.5s 0.4s;
 }
 
 .writealine.animate-in .popup-content .popup-title__text {
   opacity: 1;
   -webkit-transform: translateY(0);
-     -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
   -webkit-transition: opacity 0.5s 0.6s, -webkit-transform 0.5s 0.5s;
   transition: opacity 0.5s 0.6s, -webkit-transform 0.5s 0.5s;
   -o-transition: transform 0.5s 0.5s, opacity 0.5s 0.6s;
-  -moz-transition: transform 0.5s 0.5s, opacity 0.5s 0.6s, -moz-transform 0.5s 0.5s;
+  -moz-transition: transform 0.5s 0.5s, opacity 0.5s 0.6s,
+    -moz-transform 0.5s 0.5s;
   transition: transform 0.5s 0.5s, opacity 0.5s 0.6s;
-  transition: transform 0.5s 0.5s, opacity 0.5s 0.6s, -webkit-transform 0.5s 0.5s, -moz-transform 0.5s 0.5s;
+  transition: transform 0.5s 0.5s, opacity 0.5s 0.6s,
+    -webkit-transform 0.5s 0.5s, -moz-transform 0.5s 0.5s;
 }
 
 .writealine.animate-in .popup-content .form input[type="text"] {
   opacity: 1;
   -webkit-transform: translateY(0);
-     -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: opacity 0.5s 0.7s, border 0.6s, -webkit-transform 0.5s 0.6s;
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: opacity 0.5s 0.7s, border 0.6s,
+    -webkit-transform 0.5s 0.6s;
   transition: opacity 0.5s 0.7s, border 0.6s, -webkit-transform 0.5s 0.6s;
   -o-transition: transform 0.5s 0.6s, opacity 0.5s 0.7s, border 0.6s;
-  -moz-transition: transform 0.5s 0.6s, opacity 0.5s 0.7s, border 0.6s, -moz-transform 0.5s 0.6s;
+  -moz-transition: transform 0.5s 0.6s, opacity 0.5s 0.7s, border 0.6s,
+    -moz-transform 0.5s 0.6s;
   transition: transform 0.5s 0.6s, opacity 0.5s 0.7s, border 0.6s;
-  transition: transform 0.5s 0.6s, opacity 0.5s 0.7s, border 0.6s, -webkit-transform 0.5s 0.6s, -moz-transform 0.5s 0.6s;
+  transition: transform 0.5s 0.6s, opacity 0.5s 0.7s, border 0.6s,
+    -webkit-transform 0.5s 0.6s, -moz-transform 0.5s 0.6s;
 }
 
 .writealine.animate-in .popup-content .form input[type="email"] {
   opacity: 1;
   -webkit-transform: translateY(0);
-     -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: opacity 0.5s 0.8s, border 0.6s, -webkit-transform 0.5s 0.7s;
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: opacity 0.5s 0.8s, border 0.6s,
+    -webkit-transform 0.5s 0.7s;
   transition: opacity 0.5s 0.8s, border 0.6s, -webkit-transform 0.5s 0.7s;
   -o-transition: transform 0.5s 0.7s, opacity 0.5s 0.8s, border 0.6s;
-  -moz-transition: transform 0.5s 0.7s, opacity 0.5s 0.8s, border 0.6s, -moz-transform 0.5s 0.7s;
+  -moz-transition: transform 0.5s 0.7s, opacity 0.5s 0.8s, border 0.6s,
+    -moz-transform 0.5s 0.7s;
   transition: transform 0.5s 0.7s, opacity 0.5s 0.8s, border 0.6s;
-  transition: transform 0.5s 0.7s, opacity 0.5s 0.8s, border 0.6s, -webkit-transform 0.5s 0.7s, -moz-transform 0.5s 0.7s;
+  transition: transform 0.5s 0.7s, opacity 0.5s 0.8s, border 0.6s,
+    -webkit-transform 0.5s 0.7s, -moz-transform 0.5s 0.7s;
 }
 
 .writealine.animate-in .popup-content .form textarea,
 .writealine.animate-in .popup-content .form .inputs-description {
   opacity: 1;
   -webkit-transform: translateY(0);
-     -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: opacity 0.5s 0.9s, padding 0.5s, -webkit-transform 0.5s 0.8s;
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: opacity 0.5s 0.9s, padding 0.5s,
+    -webkit-transform 0.5s 0.8s;
   transition: opacity 0.5s 0.9s, padding 0.5s, -webkit-transform 0.5s 0.8s;
   -o-transition: transform 0.5s 0.8s, opacity 0.5s 0.9s, padding 0.5s;
-  -moz-transition: transform 0.5s 0.8s, opacity 0.5s 0.9s, padding 0.5s, -moz-transform 0.5s 0.8s;
+  -moz-transition: transform 0.5s 0.8s, opacity 0.5s 0.9s, padding 0.5s,
+    -moz-transform 0.5s 0.8s;
   transition: transform 0.5s 0.8s, opacity 0.5s 0.9s, padding 0.5s;
-  transition: transform 0.5s 0.8s, opacity 0.5s 0.9s, padding 0.5s, -webkit-transform 0.5s 0.8s, -moz-transform 0.5s 0.8s;
+  transition: transform 0.5s 0.8s, opacity 0.5s 0.9s, padding 0.5s,
+    -webkit-transform 0.5s 0.8s, -moz-transform 0.5s 0.8s;
 }
 
 .writealine.animate-in .popup-content .form button {
   opacity: 1;
   -webkit-transform: translateY(0);
-     -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
   -webkit-transition: opacity 0.5s 1s, padding 0.5s, -webkit-transform 0.5s 0.9s;
   transition: opacity 0.5s 1s, padding 0.5s, -webkit-transform 0.5s 0.9s;
   -o-transition: transform 0.5s 0.9s, opacity 0.5s 1s, padding 0.5s;
-  -moz-transition: transform 0.5s 0.9s, opacity 0.5s 1s, padding 0.5s, -moz-transform 0.5s 0.9s;
+  -moz-transition: transform 0.5s 0.9s, opacity 0.5s 1s, padding 0.5s,
+    -moz-transform 0.5s 0.9s;
   transition: transform 0.5s 0.9s, opacity 0.5s 1s, padding 0.5s;
-  transition: transform 0.5s 0.9s, opacity 0.5s 1s, padding 0.5s, -webkit-transform 0.5s 0.9s, -moz-transform 0.5s 0.9s;
+  transition: transform 0.5s 0.9s, opacity 0.5s 1s, padding 0.5s,
+    -webkit-transform 0.5s 0.9s, -moz-transform 0.5s 0.9s;
 }
 
 .writealine.animate-out {
@@ -1633,15 +1703,16 @@ form .inputs-description {
 .writealine .popup-content .popup-title__text {
   opacity: 0;
   -webkit-transform: translateY(50px);
-     -moz-transform: translateY(50px);
-      -ms-transform: translateY(50px);
-          transform: translateY(50px);
+  -moz-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  transform: translateY(50px);
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: opacity 0.3s, -webkit-transform 0.3s;
   -o-transition: opacity 0.3s, transform 0.3s;
   -moz-transition: opacity 0.3s, transform 0.3s, -moz-transform 0.3s;
   transition: opacity 0.3s, transform 0.3s;
-  transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s, -moz-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s,
+    -moz-transform 0.3s;
 }
 
 .writealine .popup-content .form input,
@@ -1650,15 +1721,16 @@ form .inputs-description {
 .writealine .popup-content .form .inputs-description {
   opacity: 0;
   -webkit-transform: translateY(50px);
-     -moz-transform: translateY(50px);
-      -ms-transform: translateY(50px);
-          transform: translateY(50px);
+  -moz-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  transform: translateY(50px);
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: opacity 0.3s, -webkit-transform 0.3s;
   -o-transition: opacity 0.3s, transform 0.3s;
   -moz-transition: opacity 0.3s, transform 0.3s, -moz-transform 0.3s;
   transition: opacity 0.3s, transform 0.3s;
-  transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s, -moz-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s,
+    -moz-transform 0.3s;
 }
 
 @media only screen and (min-width: 992px) {
@@ -1750,15 +1822,16 @@ form .inputs-description {
   position: relative;
   opacity: 0;
   -webkit-transform: translateY(50px);
-     -moz-transform: translateY(50px);
-      -ms-transform: translateY(50px);
-          transform: translateY(50px);
+  -moz-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  transform: translateY(50px);
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: opacity 0.3s, -webkit-transform 0.3s;
   -o-transition: opacity 0.3s, transform 0.3s;
   -moz-transition: opacity 0.3s, transform 0.3s, -moz-transform 0.3s;
   transition: opacity 0.3s, transform 0.3s;
-  transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s, -moz-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s,
+    -moz-transform 0.3s;
 }
 
 .static {
@@ -1777,15 +1850,16 @@ form .inputs-description {
   height: 100%;
   background-color: var(--cinza-light);
   -webkit-transform: translateX(-102%);
-     -moz-transform: translateX(-102%);
-      -ms-transform: translateX(-102%);
-          transform: translateX(-102%);
+  -moz-transform: translateX(-102%);
+  -ms-transform: translateX(-102%);
+  transform: translateX(-102%);
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
   -o-transition: transform 0.3s ease-in-out;
   -moz-transition: transform 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out,
+    -moz-transform 0.3s ease-in-out;
   z-index: 1;
 }
 
@@ -1797,7 +1871,9 @@ form .inputs-description {
   background-color: #0a0813;
 }
 
-.static .image, .static .layer-cover, .static .gallery {
+.static .image,
+.static .layer-cover,
+.static .gallery {
   opacity: 0;
 }
 
@@ -1837,80 +1913,82 @@ form .inputs-description {
 
 .active .blocks-container {
   -webkit-animation: 1s ease-in-out 1 both fadeInUp;
-     -moz-animation: 1s ease-in-out 1 both fadeInUp;
-          animation: 1s ease-in-out 1 both fadeInUp;
+  -moz-animation: 1s ease-in-out 1 both fadeInUp;
+  animation: 1s ease-in-out 1 both fadeInUp;
 }
 
 .active .static::before {
   -webkit-animation: 1.2s 0.8s ease-in-out 1 both blockMove;
-     -moz-animation: 1.2s 0.8s ease-in-out 1 both blockMove;
-          animation: 1.2s 0.8s ease-in-out 1 both blockMove;
+  -moz-animation: 1.2s 0.8s ease-in-out 1 both blockMove;
+  animation: 1.2s 0.8s ease-in-out 1 both blockMove;
 }
 
-.active .static .image, .active .static .layer-cover, .active .static .gallery {
+.active .static .image,
+.active .static .layer-cover,
+.active .static .gallery {
   -webkit-animation: 1.2s 0.8s ease-in-out 1 both itemsOpacity;
-     -moz-animation: 1.2s 0.8s ease-in-out 1 both itemsOpacity;
-          animation: 1.2s 0.8s ease-in-out 1 both itemsOpacity;
+  -moz-animation: 1.2s 0.8s ease-in-out 1 both itemsOpacity;
+  animation: 1.2s 0.8s ease-in-out 1 both itemsOpacity;
 }
 
 @-webkit-keyframes blockMove {
   0% {
     -webkit-transform: translateX(-102%);
-            transform: translateX(-102%);
+    transform: translateX(-102%);
   }
   40% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
   50% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
   100% {
     -webkit-transform: translateX(102%);
-            transform: translateX(102%);
+    transform: translateX(102%);
   }
 }
 
 @-moz-keyframes blockMove {
   0% {
     -moz-transform: translateX(-102%);
-         transform: translateX(-102%);
+    transform: translateX(-102%);
   }
   40% {
     -moz-transform: translateX(0);
-         transform: translateX(0);
+    transform: translateX(0);
   }
   50% {
     -moz-transform: translateX(0);
-         transform: translateX(0);
+    transform: translateX(0);
   }
   100% {
     -moz-transform: translateX(102%);
-         transform: translateX(102%);
+    transform: translateX(102%);
   }
 }
 
 @keyframes blockMove {
   0% {
     -webkit-transform: translateX(-102%);
-       -moz-transform: translateX(-102%);
-            transform: translateX(-102%);
+    -moz-transform: translateX(-102%);
+    transform: translateX(-102%);
   }
   40% {
     -webkit-transform: translateX(0);
-       -moz-transform: translateX(0);
-            transform: translateX(0);
+    -moz-transform: translateX(0);
+    transform: translateX(0);
   }
   50% {
     -webkit-transform: translateX(0);
-       -moz-transform: translateX(0);
-            transform: translateX(0);
+    -moz-transform: translateX(0);
+    transform: translateX(0);
   }
   100% {
     -webkit-transform: translateX(102%);
-       -moz-transform: translateX(102%);
-            transform: translateX(102%);
+    -moz-transform: translateX(102%);
+    transform: translateX(102%);
   }
 }
 
@@ -1963,14 +2041,14 @@ form .inputs-description {
   from {
     opacity: 0;
     -webkit-transform: translate3d(0, 50px, 0);
-       -moz-transform: translate3d(0, 50px, 0);
-            transform: translate3d(0, 50px, 0);
+    -moz-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
   }
   to {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
-       -moz-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 }
 
@@ -2013,8 +2091,8 @@ form .inputs-description {
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
-     -moz-background-size: cover;
-          background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
 @media only screen and (min-width: 992px) {
@@ -2101,19 +2179,66 @@ form .inputs-description {
 }
 
 .bottom-element.light {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(-1%, rgba(255, 255, 255, 0)), color-stop(0%, rgba(255, 255, 255, 0)), to(white));
-  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) -1%, rgba(255, 255, 255, 0) 0%, white 100%);
-  background: -moz- oldlinear-gradient(top, rgba(255, 255, 255, 0) -1%, rgba(255, 255, 255, 0) 0%, white 100%);
-  background: -o-linear-gradient(top, rgba(255, 255, 255, 0) -1%, rgba(255, 255, 255, 0) 0%, white 100%);
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) -1%, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(-1%, rgba(255, 255, 255, 0)),
+    color-stop(0%, rgba(255, 255, 255, 0)),
+    to(white)
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0) -1%,
+    rgba(255, 255, 255, 0) 0%,
+    white 100%
+  );
+  background: -moz-
+    oldlinear-gradient(
+      top,
+      rgba(255, 255, 255, 0) -1%,
+      rgba(255, 255, 255, 0) 0%,
+      white 100%
+    );
+  background: -o-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0) -1%,
+    rgba(255, 255, 255, 0) 0%,
+    white 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) -1%,
+    rgba(255, 255, 255, 0) 0%,
+    white 100%
+  );
 }
 
 .bottom-element.dark {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 25, 25, 0)), to(var(--black)));
-  background: -webkit-linear-gradient(top, rgba(25, 25, 25, 0) 0%, var(--black) 100%);
-  background: -moz- oldlinear-gradient(top, rgba(25, 25, 25, 0) 0%, var(--black) 100%);
-  background: -o-linear-gradient(top, rgba(25, 25, 25, 0) 0%, var(--black) 100%);
-  background: linear-gradient(to bottom, rgba(25, 25, 25, 0) 0%, var(--black) 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(25, 25, 25, 0)),
+    to(var(--black))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(25, 25, 25, 0) 0%,
+    var(--black) 100%
+  );
+  background: -moz-
+    oldlinear-gradient(top, rgba(25, 25, 25, 0) 0%, var(--black) 100%);
+  background: -o-linear-gradient(
+    top,
+    rgba(25, 25, 25, 0) 0%,
+    var(--black) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(25, 25, 25, 0) 0%,
+    var(--black) 100%
+  );
 }
 
 /* ------------------------------------------------*/
@@ -2123,7 +2248,6 @@ form .inputs-description {
 
 /* ------------------------------------------------*/
 /* ------------------------------------------------*/
-
 
 /* Contact Data Start */
 /* ------------------------------------------------*/
@@ -2155,4 +2279,3 @@ form .inputs-description {
 /* Contact Data End */
 /* ------------------------------------------------*/
 /* ------------------------------------------------*/
-
