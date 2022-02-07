@@ -68,12 +68,12 @@
 
 .loader .loader-content .loader-logo img {
   display: block;
-  width: 500px;
-  height: 500px;
+  width: 70%;
+  height: 70%
 }
 
 .loader .loader-content .loader-logo p  {
-  margin-top: -100px;
+  margin-top: 20px;
 }
 
 @-webkit-keyframes fadeIn {
