@@ -1,5 +1,4 @@
-/* Buttons & Triggers Start */
-/* ------------------------------------------------*/
+
 .menu-trigger {
   display: block;
   position: relative;
@@ -137,7 +136,7 @@
 .btn-light {
   color: var(--cinza-dark);
   
-  background: linear-gradient(-45deg, var(--cinza-dark) 0%, var(--cinza-light) 30%, var(--cinza-medium) 70%, var(--cinza-dark) 100%);
+  background-color: var(--cinza-medium);
 }
 
 .btn-light .btn-background {
@@ -252,7 +251,3 @@
 .section-close.light::before, .section-close.light::after {
   background-color: var(--white);
 }
-
-/* ------------------------------------------------*/
-/* Buttons & Triggers End */
-/* ------------------------------------------------*/
