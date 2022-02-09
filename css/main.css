@@ -672,7 +672,6 @@ form .inputs-description {
 
 .logo {
   position: relative;
-  z-index: 10;
   -webkit-transition: all 0.8s ease-in-out;
   -o-transition: all 0.8s ease-in-out;
   -moz-transition: all 0.8s ease-in-out;
@@ -2148,7 +2147,7 @@ form .inputs-description {
 }
 
 @media only screen and (min-width: 992px) {
-  .content-block {
+  .content-block {   
     padding: 0 6rem;
   }
 }
