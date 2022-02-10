@@ -15,7 +15,7 @@
   background-image: url("../img/backgrounds/objects/menu-obj-2.svg");
 }
 .about-image{
-  background-image: url("../img/about-image.jpg");
+  background-image: url("../img/image-about3.jpg");
   background-size: cover;
 }
 .contact-image {
@@ -679,12 +679,15 @@ form .inputs-description {
   display: flex;
   justify-content: center;
   margin-top: 0;
-  cursor: pointer;
+  
+  
 }
 
 .logo img {
+  cursor: pointer;
   width: 115px;
   height: 115px;
+  z-index: 10;
 }
 
 @media only screen and (min-width: 992px) {
